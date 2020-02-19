@@ -5,6 +5,19 @@ body {
   background-color: ivory;
 }
 
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
 h1, h2 {
   font-family: 'Oswald', sans-serif;
 }
@@ -12,4 +25,23 @@ h1, h2 {
 img {
   float: left;
   margin-right: 10px;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 10px;
+}
+
+.center {
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 300px;
+  padding: 10px;
 }
